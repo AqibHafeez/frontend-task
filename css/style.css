@@ -1,0 +1,330 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Poppins', serif;
+}
+body {
+  font-family: 'Inter', serif;
+  color: #fff;
+  max-height: 100vh;
+}
+
+.main-page-section {
+  background: url('../images/background.png') no-repeat center center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gradient {
+  height: 100vh;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.days {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.page-content {
+  background: url('../images/top-stars.png') no-repeat center center;
+  background-size: contain;
+}
+
+.main-heading {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 900;
+}
+
+.unlock-text {
+  display: block;
+}
+
+.stand-description {
+  font-size: 18px;
+  display: inline-block;
+}
+
+.box-content {
+  width: 425px;
+  position: relative;
+  z-index: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0px 0px 10px 0px rgba(255, 255, 255, 0.6);
+  border-top: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.box-gradient {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 24px 27px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.65+0,0+100 */
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.unbelieveable {
+  font-size: 13px;
+}
+
+.inner-dark-box {
+  border-radius: 15px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.inner-dark-box p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.button-section {
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-gradient {
+  background-color: #ecab03;
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+
+.rays-animation {
+  position: absolute;
+  left: 0;
+  opacity: 0.5;
+  width: 100%;
+  transform: translateX(-50%);
+  z-index: -1;
+  animation: spin 35s linear infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-25px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+.animate__slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+.animate__animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.bottom-content {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  left: 24%;
+  overflow: hidden;
+}
+
+.star-left,
+.star-right {
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  position: relative;
+}
+
+.star-left {
+  background: url('../images/coin-left.png') no-repeat center center;
+  background-size: contain;
+  animation: float 4s ease-in-out infinite;
+  top: 100px;
+  left: 70px;
+}
+
+.star-right {
+  width: 130px;
+  height: 130px;
+  top: 150px;
+  background: url('../images/coin-right.png') no-repeat center center;
+  background-size: contain;
+  animation: float 6s ease-in-out infinite;
+}
+
+@media (max-width: 1199px) {
+  .rays-animation img {
+    max-width: 100%;
+  }
+
+  .rays-animation {
+    bottom: unset;
+    top: 30%;
+  }
+
+  .bottom-content {
+    bottom: 0;
+    position: fixed;
+    left: 0;
+  }
+
+  .star-left,
+  .star-right {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+  }
+
+  .star-left {
+    left: 70px;
+    top: 130px;
+  }
+
+  .star-right {
+    width: 100px;
+    height: 100px;
+    right: 100px;
+    top: 250px;
+  }
+
+  .main-heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .stand-description,
+  .box-gradient h5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .box-gradient ol li {
+    font-size: 14px;
+  }
+
+  .page-content {
+    background-position: top;
+  }
+}
+
+@media (max-width: 767px) {
+  .star-left {
+    top: 50%;
+    left: 0;
+  }
+
+  .star-right {
+    top: 60%;
+    right: 0;
+  }
+
+  .bottom-content > img,
+  .box-content {
+    max-width: 100%;
+  }
+
+  .gradient {
+    background: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.25) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.25) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+
+  .star-left {
+    width: 100px;
+    height: 100px;
+  }
+
+  .star-right {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 480px) {
+  .bottom-content {
+    position: fixed;
+    left: 0;
+  }
+
+  .btn-gradient {
+    min-width: 200px;
+  }
+}
